@@ -24,7 +24,8 @@ public class GoogleTest extends Hooks {
         wait.until(ExpectedConditions.elementToBeClickable(btn_buscar));
         btn_buscar.click();
 
-        Thread.sleep(5000);
+        Thread.sleep(2500);
+        Thread.sleep(2500);
     }
 
 }
