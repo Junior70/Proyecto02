@@ -25,5 +25,6 @@ public class GoogleTest2 extends Hooks {
         btn_buscar.click();
 
         Thread.sleep(5000);
+        Thread.sleep(5000);
     }
 }
