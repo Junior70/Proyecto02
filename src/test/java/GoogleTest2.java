@@ -23,8 +23,7 @@ public class GoogleTest2 extends Hooks {
         WebElement btn_buscar = driver.findElement(By.name("btnK"));
         wait.until(ExpectedConditions.elementToBeClickable(btn_buscar));
         btn_buscar.click();
-
-        Thread.sleep(5000);
+        
         Thread.sleep(5000);
     }
 }
